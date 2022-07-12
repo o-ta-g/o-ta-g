@@ -39,15 +39,15 @@
       .button {
         border: none;
         color: rgb(126, 127, 82);
-        background-color: rgba(131, 99, 70, 0.089);
+        background-color: rgba(131, 100, 70, 0);
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
+        font-size: 10px;
+        margin: 2px 2px;
         cursor: pointer;
-        position: absolute;
+        position:absolute;
         right: 3%;
       }
 
@@ -132,14 +132,14 @@
 
       .pupa {
         text-align: 10px;
-        font-size: 15px;
+        font-size: 12px;
         /* color:rgba(62, 41, 32, 0.7); */
       }
 
 
       .pupaDm {
         text-align: 10px;
-        font-size: 15px;
+        font-size: 12px;
         color:rgba(190, 146, 127, 0.7);
       }
       
@@ -230,11 +230,11 @@
       margin-bottom: 10%;
       font-family: Arial;
       font-size: 90%;
-      color: rgba(53, 72, 39, 0.352);
+      /* color: rgba(53, 72, 39, 0.352); */
 }
 
 .links:visited {
-  color: rgba(53, 72, 39, 0.468);
+  color: rgba(102, 219, 18, 0.468);
 }
 
 #myImg {
@@ -313,23 +313,6 @@
   to {transform:scale(1)}
 }
 
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 5px;
-  right: 35px;
-  color: #f1f1f124;
-  font-size: 340px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
@@ -338,22 +321,19 @@
   }
 }
 
-#photoManipulations {
- /*  visibility: 'visible'; */
-  display: "none";
-}
-
 
     </style>
   </head>
   
   <body class="myBg">
 
+    <button class="button" onclick="myFunction()">dark mode</button>
+
+
     <div class="oCon" id="section1" background-color:"cornsilk" >  
       <div class="oDiv"><a href=" " style="color:rgb(0, 0, 0)"> o t a g </a></div>
     </div>
 
-    <button class="button" onclick="myFunction()">dark mode</button>
 
       <!-- The Modal -->
   <div id="myModal" class="modal">
@@ -367,13 +347,13 @@
 
     <div class="grid-item" id="photoManipulations">  
       <img id="myImg" alt="plastic detail-manipulation 2021-2022 <br> #hive #macrodetail #plastictissue #photomanipulation" src="https://ipfs.io/ipfs/QmXPTmzai1LsBvgkrS9M7pf6hTeGJCxCUpz1dWXuv4n8NF" style="width:100%" onclick="onClick(this)">
-      <p2 class="pupa"> -------------------------------------------------------------------------------hive--------------------------------kovan-->
+      <p2 class="pupa"> -------------------------------------------hive--------------------------------kovan-->
       </p2>
       <img id="myImg" alt="plastic detail-manipulation 2021-2022 <br> #plasticEar #macrodetail #plastictissue #photomanipulation" src="https://ipfs.io/ipfs/QmSvViRLtMthSW2f9c9j6E48vRKPgvDN7paJwgmQ7587qB" style="width:100%" onclick="onClick(this)">
       <p2 class="pupa">  ----------------------------------------------plasticEar-----------------plastiKulak---------------------------------------------------------------------->
       </p2>
       <img id="myImg" alt="plastic detail-manipulation, 2018 <br> #neutral #plastictissue #photomanipulation" src="https://ipfs.io/ipfs/QmUTzuigRnbpeLtvWdqaK1KKUpFCaCWrvyV476zZNc6V5R" style="width:100%" onclick="onClick(this)">
-      <p2 class="pupa"> ---------------------------------------------------neutral------------------------>
+      <p2 class="pupa"> ---------------------------------------------neutral---------->
       </p2>
     </div>
 
@@ -382,7 +362,7 @@
       <div id="myImg" alt="#deapseaproject #displace # #supremelife #azamiyasam #maximal #computergraphics #everything-is-a-plant 2021" style="width:80%" onclick="onClick(this)">
       <video id="myImg" width="125%" height="100%" controls>
         <source src="https://bafybeid4txj5anf5gfkkye5bahvrytovx5p7m277p3uxnqksyzpa6laa4y.ipfs.dweb.link/deepsea4.mp4" type="video/mp4">
-        <p2 class="pupa"> ---------------------deepsea project/displace--------------------------------------------------------------------------------->
+        <p2 class="pupa"> ---------------------deepsea project/displace-------------------------------------------------->
         </p2>
       </video>
       </div>
@@ -393,20 +373,20 @@
       <p2 class="pupa">  -->-->
       </p2>
       <img id="myImg" alt="wip--> papermache, plexiglass, glue, silicon, wire, string, 2022 <br> #wip #growth #supreme #dreamcore " src="https://bafybeigyaqhnbt2ano2oq6lhpvnzz6jxjn4unfulti2brwsxrrpdgebtre.ipfs.dweb.link/wippp.jpg" style="width:100%" onclick="onClick(this)">
-      <p2 class="pupa">  ------------------------------------------w-i-p-----------         ------------------------->
+      <p2 class="pupa">  ---------------------------------w-i-p--------------------------->
       </p2>
       <img id="myImg" alt="wreck--> 18x14x29, waste cat fur, walnut shell, hot glue, poster glue, wire, 2020-2022 <br> #wreck # enkaz #aperture ##foraging #salvaging #chimaira #ligament #IndustrialWorkersOfTheWorld <br> #wen #lump #growth #tuber #sideffects #supreme <br> #maximal #liminalspace #theopen #dreamcore " src="https://bafybeihnn76zzyb7jfprckw3xa4hpvbyg7ttqwrvwqjzv7izlvd2onhwwe.ipfs.dweb.link/02-canal2160.jpg" style="width:100%" onclick="onClick(this)">
-      <p2 class="pupa">  ------------------------------------------object04------------------------------------------       ------------------         ------------------------->
+      <p2 class="pupa">  ---------------------------object04-------------------------         ------------->
       </p2>
       <img id="myImg" alt="liminal--> 22x30x32, waste cat fur, cardboard, poster glue, wire, hot glue, pigment, nylon string, 2020-2021 <br> #hollow-thing #boş-şey #aperture #foraging #salvaging #chimaira <br>
       #tuber #sideffects #maximal #liminalspace #theopen #dreamcore" src="https://ipfs.io/ipfs/QmQXSTyrEt1ZwhV4uWbgZH8ieXveHfJsUqzTwneCmndvyg" style="width:100%" onclick="onClick(this)">
-      <p2 class="pupa"> ------------------                --------object03----      -----------------       ------------------------->
+      <p2 class="pupa"> -----------------------object03----      -----------------       --------------->
       </p2>
       <img id="myImg" alt="state--> 15x15x53, waste cat fur, stainless mesh wire, silicon, pigment, starch, 2019-2021 <br> #foraging #salvaging #chimaira #ligament #IndustrialWorkersOfTheWorld <br> #sideffects #liminalspace #theopen #dreamcore " src="https://bafybeifpefivuggn4uqccofvpe4jsj7bpmhq2y7k6k3x2hh3h2zhwtg3m4.ipfs.dweb.link/domestic.jpg" style="width:100%" onclick="onClick(this)">
-      <p2 class="pupa">  -------------------------------------------------------------------       ----------------------object02---      ------------------------->
+      <p2 class="pupa">  -----------------------------------------object02---      ------------------>
       </p2>
       <img id="myImg" alt="-->soft shell/aperture--> 28x36x30, waste cat fur, waste teak wood, poster glue, hot glue, wire, glass bead, needle, 2019-2021 <br> #aperture #soft-shell #yumuşak-kabuk #açıklık #seclusion #supreme <br> #maximal #liminalspace #theopen #dreamcore " src="https://bafybeihaoeonsvdsxip3lfascejznzmxm3uakb2ydgdxmg774ocg47kcem.ipfs.dweb.link/06.jpg" style="width:100%" onclick="onClick(this)">
-      <p2 class="pupa"> ---------------------object01--------------------------------------------------------------------------------->
+      <p2 class="pupa"> ---------------------object01--------------------------------------->
       </p2>
     </div>
 
@@ -592,7 +572,7 @@
   </div>
 
 
-  <div class="uPupa" id="section2">
+ <div class="uPupa" id="section2">
 
     <p2 class="pupa"> #openness #clarity #space #yard #distinctness <br>
                       #aperture #theOpen #foraging #salvaging #chimaira <br>
@@ -629,8 +609,8 @@
                       #neutral #creatureneutral #fiber #flaxen #multiplefaces <br>
                       #linenfiber 
                       
-    </p2>
-    <a href="#otag">#home</a>
+     </p2>
+     <a href="#otag">#home</a>
   </div>
 
     <!-- ////////////////////////////////////////////// -->
@@ -645,7 +625,7 @@
         document.getElementById('loadingImage').style.visibility='visible';
       }
       var modal = document.getElementById("myModal");
-      var span = document.getElementsByClassName("close")[0]; // modal
+      var span = document.getElementsByClassName("modal")[0]; // modal
       span.onclick = function() { 
         modal.style.display = "none";
       }
@@ -655,19 +635,10 @@
       function myFunction() {
         var element = document.body;
         element.classList.toggle("dark-mode");
-        var pupadark = document.getElementsByClassName('pupa');
-        pupadark.classList.toggle('pupaDm');
-        var medDark = document.getElementsByClassName
-
-
-/*         var pupa = document.getElementsByClassName("pupa");
-        pupa.style.color = "cornsilk"; */
       }
-    
-    
-  </script>
 
-  </body>
+  </script>
+ </body>
 </html>
 
 
